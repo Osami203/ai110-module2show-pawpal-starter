@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python demo.py)",
+      "Bash(echo \"=== demo exit code: $? ===\")"
+    ]
+  }
+}

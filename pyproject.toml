@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# Put the project root on sys.path so tests in tests/ can do
+# `from pawpal_system import ...` no matter how pytest is launched
+# (plain `pytest`, `python -m pytest`, or from inside tests/).
+pythonpath = ["."]
+testpaths = ["tests"]
